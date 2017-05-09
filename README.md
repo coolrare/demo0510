@@ -1,28 +1,35 @@
 # Demo0510
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
+本專案使用 [Angular CLI](https://github.com/angular/angular-cli) v1.0.1 建立。
 
-## Development server
+執行命令如下：
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```
+ng new demo0510 --skip-tests --skip-install
+cd demo0510
+npm install
+```
 
-## Code scaffolding
+## 開發伺服器
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+執行 `ng serve` 握 `npm start` 可以啟動開發伺服器，並在瀏覽器開啟 `http://localhost:4200/` 頁面即可。
 
-## Build
+## 程式碼骨架
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+執行 `ng generate component component-name` 可以產生新的元件。你也可以使用 `ng generate directive|pipe|service|class|module` 產生其他元件。
 
-## Running unit tests
+## 建置專案
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+執行 `ng build` 即可建置專案，輸出目錄會在 `dist/` 目錄下。使用 `-prod` 可以建置正式生產環境的版本(production build)。
 
-## Running end-to-end tests
+## 執行單元測試
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+執行 `ng test` 可以透過 [Karma](https://karma-runner.github.io) 執行單元測試。
 
-## Further help
+## 執行 end-to-end 測試
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+執行 `ng e2e` 可以透過 [Protractor](http://www.protractortest.org/) 執行 end-to-end 單元測試。執行之前，請確保已經正確執行 `ng serve` 或 `npm start` 命令。
+
+## 更多協助
+
+想知道更多 Angular CLI 用法，可以執行 `ng help` 或到 [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md) 查閱相關說明。
