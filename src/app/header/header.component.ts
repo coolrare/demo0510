@@ -19,7 +19,7 @@ export class HeaderComponent implements OnInit {
   changeTitle($event: MouseEvent) {
     this.sitename = 'The Will Will Web';
     console.log($event);
-    if($event.ctrlKey) {
+    if ($event.ctrlKey) {
       this.counter--;
     } else {
       this.counter++;
