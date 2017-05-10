@@ -9,6 +9,7 @@ export class HeaderComponent implements OnInit {
 
   sitename = 'My Site Name';
   logo_img = '/assets/images/logo.png';
+  counter = 0;
 
   constructor() { }
 
@@ -18,5 +19,10 @@ export class HeaderComponent implements OnInit {
   changeTitle($event: MouseEvent) {
     this.sitename = 'The Will Will Web';
     console.log($event);
+    if($event.ctrlKey) {
+      this.counter--;
+    } else {
+      this.counter++;
+    }
   }
 }
