@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ArticleComponent implements OnInit {
 
   @Input()
-  data;
+  item;
 
   constructor() { }
 
