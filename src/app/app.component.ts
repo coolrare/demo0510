@@ -11,4 +11,11 @@ export class AppComponent {
   changeKeyword(value: string) {
     this.title = value;
   }
+
+  clearKeyword($event: KeyboardEvent) {
+    if($event.keyCode == 27) {
+      this.title = '';
+      ($event.target as HTMLInputElement).value = '';
+    }
+  }
 }
