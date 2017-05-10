@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
 
-  changeKeyword(input: HTMLInputElement) {
-    this.title = input.value;
+  changeKeyword(value: string) {
+    this.title = value;
   }
 }
