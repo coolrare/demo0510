@@ -12,7 +12,7 @@ npm install
 
 ## 開發伺服器
 
-執行 `ng serve` 握 `npm start` 可以啟動開發伺服器，並在瀏覽器開啟 `http://localhost:4200/` 頁面即可。
+執行 `ng serve` 或 `npm start` 可以啟動開發伺服器，並在瀏覽器開啟 `http://localhost:4200/` 頁面即可。
 
 ## 程式碼骨架
 
