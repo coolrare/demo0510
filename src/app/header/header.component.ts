@@ -29,4 +29,11 @@ export class HeaderComponent implements OnInit {
   isHighlight() {
     return this.counter % 2 == 0;
   }
+
+  applyClass() {
+    return {
+      highlight: this.isHighlight(),
+      class2: true
+    };
+  }
 }
