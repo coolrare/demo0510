@@ -12,10 +12,8 @@ export class AppComponent {
     this.title = value;
   }
 
-  clearKeyword($event: KeyboardEvent) {
-    if($event.keyCode == 27) {
+  clearKeyword(input: HTMLInputElement) {
       this.title = '';
-      ($event.target as HTMLInputElement).value = '';
-    }
+      input.value = '';
   }
 }
