@@ -8,13 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   sitename = 'My Site Name';
+  logo_img = '/assets/images/logo.png';
 
   constructor() { }
 
   ngOnInit() {
-    setTimeout(() => {
-      this.sitename = 'The Will Will Web';
-    }, 3000);
   }
 
+  changeTitle($event: MouseEvent) {
+    this.sitename = 'The Will Will Web';
+    console.log($event);
+  }
 }

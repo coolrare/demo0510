@@ -25,7 +25,8 @@
   <div class="title-wrapper">
     <div class="container">
 
-      <img src="/assets/images/logo.png" class="pull-left logo" alt="The Will Will Web">
+      <img [src]="logo_img" class="pull-left logo"
+           [title]="sitename" (click)="changeTitle($event)">
 
       <div class="pull-left">
         <h1><a href="http://blog.miniasp.com/">{{sitename}}</a></h1>
