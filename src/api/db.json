@@ -1,241 +1,7 @@
 {
-  "recentComments": [{
-      "article": "http://blog.miniasp.com/post/2013/05/07/AngularJS-Intellisense-in-Visual-Studio-2012.aspx",
-      "title": "如何讓 Visual Studio 2012 支援 AngularJS 的 Intellisense (7)",
-      "commentor": "Will 保哥",
-      "content": "amelie: 這文章是講 Visual Studio 2012 的，Visual Studio 2... ",
-      "href": "http://blog.miniasp.com/post/2013/05/07/AngularJS-Intellisense-in-Visual-Studio-2012.aspx#id_cbe390e9-08ef-4aa9-a6d6-e5f43dc842ee"
-    },
+  "articles": [
     {
-      "article": "http://blog.miniasp.com/post/2013/05/07/AngularJS-Intellisense-in-Visual-Studio-2012.aspx",
-      "title": "如何讓 Visual Studio 2012 支援 AngularJS 的 Intellisense",
-      "commentor": "amelie",
-      "content": "你好 我在VS 2010 的資料夾裡，沒有這2個檔案ㄟ commonHTML5Types.b... ",
-      "href": "http://blog.miniasp.com/post/2013/05/07/AngularJS-Intellisense-in-Visual-Studio-2012.aspx#id_62c455f4-ff32-49d3-bd44-66ea2cf2a7b8"
-    },
-    {
-      "article": "http://blog.miniasp.com/post/2010/03/02/The-Complete-Guide-for-Purchase-Install-SSL-Certificate-to-IIS7.aspx",
-      "title": "購買與安裝 SSL 憑證完全攻略（以 IIS7 為例）(25)",
-      "commentor": "多奇數位Joseph",
-      "content": "Hi Nat, 憑證申請主要分兩個步驟 (1)產生CSR並上傳至第三方認證機構的網站 (2)從第三... ",
-      "href": "http://blog.miniasp.com/post/2010/03/02/The-Complete-Guide-for-Purchase-Install-SSL-Certificate-to-IIS7.aspx#id_0f91957b-880c-489d-b8c1-6364f6f9a8b8"
-    },
-    {
-      "article": "http://blog.miniasp.com/post/2010/03/02/The-Complete-Guide-for-Purchase-Install-SSL-Certificate-to-IIS7.aspx",
-      "title": "購買與安裝 SSL 憑證完全攻略（以 IIS7 為例）(25)",
-      "commentor": "Nat",
-      "content": "保哥,可以請教一下,我目前於國外申請Comodo的Comodo Wildcard SSL產品申請下來...",
-      "href": "http://blog.miniasp.com/post/2010/03/02/The-Complete-Guide-for-Purchase-Install-SSL-Certificate-to-IIS7.aspx#id_85bd439d-b7fb-4c3d-a266-481d0477ff01"
-    },
-    {
-      "article": "http://blog.miniasp.com/post/2008/12/22/Useful-tool-LDAP-Browser-Editor.aspx",
-      "title": "介紹好用工具：LDAP Browser/Editor (10)",
-      "commentor": "鳥毅",
-      "content": "我推薦 jxplorer http://jxplorer.org/ ，也是 OpenSource 又跨... ",
-      "href": "http://blog.miniasp.com/post/2008/12/22/Useful-tool-LDAP-Browser-Editor.aspx#id_cfc0b7b0-217f-4650-b445-232a2eb9481e"
-    },
-    {
-      "article": "",
-      "title": "",
-      "commentor": "",
-      "content": "",
-      "href": ""
-    }
-  ],
-  "categories": [{
-      "cateName": ".Net",
-      "count": "199"
-    },
-    {
-      "cateName": "Accessibility",
-      "count": "3"
-    },
-    {
-      "cateName": "AngularJS",
-      "count": "7"
-    },
-    {
-      "cateName": "ASP.NET",
-      "count": "217"
-    },
-    {
-      "cateName": "ASP.NET 5",
-      "count": "3"
-    },
-    {
-      "cateName": "ASP.NET Identity",
-      "count": "2"
-    },
-    {
-      "cateName": "ASP.NET MVC",
-      "count": "98"
-    },
-    {
-      "cateName": "ASP.NET Web API",
-      "count": "6"
-    },
-    {
-      "cateName": "C#",
-      "count": "116"
-    },
-    {
-      "cateName": "Cloud Computing",
-      "count": "2"
-    },
-    {
-      "cateName": "CSS",
-      "count": "29"
-    },
-    {
-      "cateName": "Entity Framework",
-      "count": "16"
-    },
-    {
-      "cateName": "Git",
-      "count": "18"
-    },
-    {
-      "cateName": "HTML5",
-      "count": "8"
-    },
-    {
-      "cateName": "IIS",
-      "count": "96"
-    },
-    {
-      "cateName": "JavaScript",
-      "count": "95"
-    },
-    {
-      "cateName": "Jenkins",
-      "count": "4"
-    }
-  ],
-  "tagCloud": [{
-      "tagName": ".net",
-      "tagScale": "small"
-    },
-    {
-      "tagName": "active directory",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "ad",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "ado.net",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "ajax",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "angularjs",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "apache",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "asp",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "ASP.NET",
-      "tagScale": "biggest"
-    },
-    {
-      "tagName": "html5",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "iis",
-      "tagScale": "medium"
-    },
-    {
-      "tagName": "exchange",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "DNS",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "Bower",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "backup",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "awstats",
-      "tagScale": "smallest"
-    },
-    {
-      "tagName": "azure",
-      "tagScale": "small"
-    }
-  ],
-  "blogRoll": [{
-      "name": "ScottGu's Blog - ScottG...",
-      "href": "http://weblogs.asp.net/scottgu/",
-      "rss": "http://weblogs.asp.net/scottgu/rss.aspx",
-      "article": [{
-          "title": "Welcoming the Xamarin t...",
-          "link": "http://weblogs.asp.net/scottgu/welcoming-the-xamarin-team-to-microsoft"
-        },
-        {
-          "title": "AzureCon Keynote Announ...",
-          "link": "http://weblogs.asp.net/scottgu/azurecon-keynote-announcements-india-regions-gpu-support-iot-suite-container-service-and-security-center"
-        },
-        {
-          "title": ">Announcing General Avai...",
-          "link": "http://weblogs.asp.net/scottgu/announcing-general-availability-of-hdinsight-on-linux-new-data-lake-services-and-language"
-        }
-      ]
-    },
-    {
-      "name": "ASP.NET Weblogs",
-      "href": "http://weblogs.asp.net/",
-      "rss": "http://weblogs.asp.net/feed/recent-posts.xml",
-      "article": [{
-          "title": "Parallel LINQ (2) Parti...",
-          "link": "https://weblogs.asp.net/dixin/parallel-linq-2-partitioning"
-        },
-        {
-          "title": "ng-conf in Salt Lake Ci...",
-          "link": "http://weblogs.asp.net/lduveau/ng-conf-in-salt-lake-city"
-        },
-        {
-          "title": "Utilize Server Sent Eve...",
-          "link": "http://weblogs.asp.net/bipinjoshi/utilize-server-sent-events-in-asp-net-mvc"
-        }
-      ]
-    },
-    {
-      "name": "黑暗執行緒",
-      "href": "http://blog.darkthread.net/",
-      "rss": "http://blog.darkthread.net/blogs/darkthreadtw/rss.aspx",
-      "article": [{
-          "title": "2016石碇馬",
-          "link": "http://blog.darkthread.net/post-2016-05-02-2016-shiding-marathron.aspx"
-        },
-        {
-          "title": "安裝NuGet Package時在web.co...",
-          "link": "http://blog.darkthread.net/post-2016-04-30-nuget-package-web-config-install.aspx"
-        },
-        {
-          "title": "從Visual Studio發佈NuGet P...",
-          "link": "http://blog.darkthread.net/post-2016-04-28-nuget-packager.aspx"
-        }
-      ]
-    }
-  ],
-  "articles": [{
+      "id": 1,
       "href": "http://blog.miniasp.com/post/2016/04/30/Visual-Studio-Code-from-Command-Prompt-notes.aspx",
       "title": "從命令提示字元中開啟 Visual Studio Code 如何避免顯示惱人的偵錯訊息",
       "date": "2016/04/30 18:05",
@@ -245,6 +11,7 @@
       "summary": "<p>由於我的 Visual Studio Code 大部分時候都是在命令提示字元下啟動，所以只要用 <strong><font color='#ff0000' face='Consolas'>code .</font></strong>就可以快速啟動 Visual Studio Code 並自動開啟目前所在資料夾。不過不知道從哪個版本開始，我在啟動 Visual Studio Code 之後，卻開始在原本所在的命令提示字元視窗中出現一堆惱人的偵錯訊息，本篇文章試圖解析這個現象，並提出解決辦法。</p><p>... <a class='more' href='http://blog.miniasp.com/post/2016/04/30/Visual-Studio-Code-from-Command-Prompt-notes.aspx#continue'>繼續閱讀</a>...</p>"
     },
     {
+      "id": 2,
       "href": "http://blog.miniasp.com/post/2016/03/22/Does-Certification-Exam-Useful.aspx",
       "title": "考證照真的沒用嗎？一個從業 20 年的 IT 主管告訴你他怎麼看！",
       "date": "2016/03/22 19:28",
@@ -254,6 +21,7 @@
       "summary": "<p>其實無論在哪個國家都有推行證照制度，且行之有年，台灣當然也不例外，這件事一開始的立意都是好的，就是希望透過一套公平的考試制度，評估一個人的技術能力是否達到一定程度水準，不但能當成一個人的能力指標，也可以讓大家有個明確目標朝專業之路邁進。其他的行業我不清楚，但就我本身熟悉的 IT 產業來說，不知何年何月開始，大家開始對證照制度嗤之以鼻、不屑一顧，甚至覺得是一個人能力的<strong>負指標</strong> (也就是能力不好的人才需要靠證照證明自己)。你說這現象是何等的詭異？是什麼樣的天時、地利、人和，可以讓一個原本立意良善的制度，變成人人喊打的落水狗，可能連有張證照都還不敢承認的地步。今天，就來談談我的個人見解。</p><p>... <a class='more' href='http://blog.miniasp.com/post/2016/03/22/Does-Certification-Exam-Useful.aspx#continue'>繼續閱讀</a>...</p>"
     },
     {
+      "id": 3,
       "href": "http://blog.miniasp.com/post/2016/03/14/ASPNET-MVC-Developer-Note-Part-28-Understanding-ModelState.aspx",
       "title": "ASP.NET MVC 開發心得分享 (28)：深入瞭解 ModelState 內部細節",
       "date": "2016/03/14 12:14",
@@ -263,6 +31,7 @@
       "summary": "<p>在 ASP.NET MVC 的 <strong>模型繫結</strong> (Model Binding) 完成之後，我們可以在 Controller / Action 中取得 <span style='font-family: Consolas;'>ModelState</span>                  物件，一般來說我們都會用 <span style='font-family: Consolas;'><strong>ModelState.IsValid</strong></span> 來檢查在「模型繫結」的過程中所做的<strong>輸入驗證</strong> (Input Validation) 與 <strong>模型驗證</strong> (Model Validation) 是否成功。不過，這個 <span style='font-family: Consolas;'>ModelState</span>物件的用途很廣，裡面存有非常多模型繫結過程的狀態資訊，不但在 Controller 中能用，在 View 裡面也能使用，用的好的話，可以讓你的 Controller 更輕、View 也更乾淨，本篇文章將分享幾個 ModelState 的使用技巧。</p><p>... <a class='more' href='http://blog.miniasp.com/post/2016/03/14/ASPNET-MVC-Developer-Note-Part-28-Understanding-ModelState.aspx#continue'>繼續閱讀</a>...</p>"
     },
     {
+      "id": 4,
       "href": "http://blog.miniasp.com/post/2016/03/06/ASPNET-MVC-5-View-Roslyn-problem-workaround.aspx",
       "title": "ASP.NET MVC 5.2.3 的 View 使用 Roslyn (C# 6.0) 編譯時的問題",
       "date": "2016/03/06 17:11",
@@ -272,6 +41,7 @@
       "summary": "<p>最近發現目前的 ASP.NET MVC 5 最新版 (v5.2.3) 在搭配 Visual Studio 2015 進行開發時，在 View 頁面中使用 @Html.IdFor() 或 @Html.NameFor()在搭配使用特定 Lambda 語法時會輸出奇怪的字元，由於所有強型別的 HtmlHeper 表單欄位輸出的內部都會用到 IdFor() 與 Namefor() 這兩個 API，所以這個問題將會導致這些表單欄位 HTML 輸出的時候產生錯誤的 id 與 name 屬性，當表單 POST 回 Controller 時將無法正確執行模型繫結 (Model Binding)，所以會有接不到資料的情況，本篇文章將詳加說明發生的原因與暫時的解決方案。</p><p>... <a class='more' href='http://blog.miniasp.com/post/2016/03/06/ASPNET-MVC-5-View-Roslyn-problem-workaround.aspx#continue'>繼續閱讀</a>...</p>"
     },
     {
+      "id": 5,
       "href": "http://blog.miniasp.com/post/2016/02/19/Useful-tool-PackageManagement-OneGet.aspx",
       "title": "介紹好用工具：Win 10 內建的 PackageManagement 套件管理器 (OneGet)",
       "date": "2016/02/19 11:55",
@@ -281,6 +51,7 @@
       "summary": "<p><a href='http://oneget.org/' rel='nofollow' target='_blank'>OneGet</a> 是微軟新一代 Windows 套件管理器 ( 類似 Ubuntu Linux 底下的 apt-get 工具 )，這名字還蠻漂亮的，不過前陣子卻把名稱改為<font color='#0000ff'>PackageManagement</font>，但無論如何，我覺得 OneGet 比較好聽，你只要知道這兩個是一樣的東西就好了。 目前這套工具已經內建於 Windows 10 作業系統中，透過 PowerShell 的 Cmdlet 就可以呼叫使用，這個鮮為人知的全新工具試圖解決未來所有軟體安裝的問題，本篇文章將詳細介紹 OneGet 的基本概念與使用方式。</p><p>... <a class='more' href='http://blog.miniasp.com/post/2016/02/19/Useful-tool-PackageManagement-OneGet.aspx#continue'>繼續閱讀</a>...</p>"
     },
     {
+      "id": 6,
       "href": "http://blog.miniasp.com/post/2016/02/02/JavaScript-novice-advice-and-learning-resources.aspx",
       "title": "我要成為前端工程師！給 JavaScript 新手的建議與學習資源整理",
       "date": "2016/02/02 17:48",
