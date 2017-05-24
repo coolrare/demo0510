@@ -11,16 +11,8 @@ export class ArticleComponent implements OnInit {
   @Input()
   item;
 
-  @Output()
-  delete = new EventEmitter<any>();
-
-  constructor(private datasvc: DataService) { }
+  constructor(public datasvc: DataService) { }
 
   ngOnInit() {
   }
-
-  deleteArticle() {
-    this.delete.emit(this.item);
-  }
-
 }
