@@ -8,13 +8,11 @@ import { DataService } from './data.service';
 })
 export class AppComponent implements OnInit {
   title = 'app works!';
-  data: any;
 
-  constructor(private datasvc: DataService) {
+  constructor(public datasvc: DataService) {
   }
 
   ngOnInit() {
-    this.data = this.datasvc.data;
   }
 
   changeKeyword(value: string) {
@@ -27,8 +25,8 @@ export class AppComponent implements OnInit {
   }
 
   deleteArticle(item) {
-    const idx = this.data.indexOf(item);
-    this.data.splice(idx, 1);
+    const idx = this.datasvc.data.indexOf(item);
+    this.datasvc.data.splice(idx, 1);
   }
 
 }
