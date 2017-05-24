@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from 'app/data.service';
+import { DataService } from './data.service';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,7 @@ import { DataService } from 'app/data.service';
 })
 export class AppComponent implements OnInit {
   title = 'app works!';
-  data:any;
+  data: any;
 
   constructor(private datasvc: DataService) {
   }
@@ -27,7 +27,7 @@ export class AppComponent implements OnInit {
   }
 
   deleteArticle(item) {
-    let idx = this.data.indexOf(item);
+    const idx = this.data.indexOf(item);
     this.data.splice(idx, 1);
   }
 
