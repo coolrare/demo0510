@@ -23,10 +23,4 @@ export class AppComponent implements OnInit {
       this.title = '';
       input.value = '';
   }
-
-  deleteArticle(item) {
-    const idx = this.datasvc.data.indexOf(item);
-    this.datasvc.data.splice(idx, 1);
-  }
-
 }

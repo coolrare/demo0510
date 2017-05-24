@@ -5,6 +5,11 @@ export class DataService {
 
   constructor() { }
 
+  deleteArticle(item) {
+    const idx = this.data.indexOf(item);
+    this.data.splice(idx, 1);
+  }
+
   // tslint:disable-next-line:member-ordering
   data = [
     {
